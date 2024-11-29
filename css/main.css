@@ -14,7 +14,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #C51537;
+    background-color: #090909;
     color: #fff;
     padding: 10px 20px;
 }
@@ -47,7 +47,7 @@ header {
 }
 
 .login-button button {
-    background-color: #E0624F;
+    background-color: #e33216;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -170,7 +170,7 @@ header {
 
 /* Footer */
 footer {
-    background-color: #C51537;
+    background-color: #000000;
     color: #fff;
     padding: 20px 0;
     text-align: center;
