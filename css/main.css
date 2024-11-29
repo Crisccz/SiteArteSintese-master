@@ -1,0 +1,252 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #FFEFB4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #C51537;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list ul li {
+    margin: 0 15px;
+}
+
+.nav-list ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-list ul li a:hover {
+    color: #FFD6CC;
+}
+
+.login-button button {
+    background-color: #E0624F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-button button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-button button:hover {
+    background-color: #FFBBE7;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+/* Slider */
+.slider {
+    background: linear-gradient(90deg, #C51537, #FFD6CC);
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.slider h1 span {
+    display: block;
+}
+
+.btn-main {
+    display: inline-block;
+    background-color: #E0624F;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-main:hover {
+    background-color: #FFBBE7;
+}
+
+/* Frase Inspiradora */
+.frase {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 20px;
+    background-color: #FFD6CC;
+}
+
+/* Seção de Cursos */
+.curso {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #FFEFB4;
+}
+
+.curso h1 {
+    margin-bottom: 20px;
+}
+
+.curso-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.curso-card {
+    background-color: #FFF;
+    border: 1px solid #FCC9A5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.curso-card h2 {
+    color: #C51537;
+    margin-bottom: 10px;
+}
+
+.matricula {
+    display: inline-block;
+    color: #fff;
+    background-color: #E0624F;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.matricula:hover {
+    background-color: #FFBBE7;
+}
+
+/* Avaliações */
+.avaliacoes {
+    padding: 40px 20px;
+    background-color: #FFEFB4;
+}
+
+.avaliacoes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.box {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #C51537;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links a {
+    color: #FFD6CC;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    color: #FFD6CC;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.social-media a:hover {
+    color: #FFBBE7;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .nav-list ul {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu ul {
+        display: none;
+        list-style: none;
+        background-color: #C51537;
+        padding: 20px;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        text-align: center;
+    }
+
+    .mobile-menu ul li {
+        margin-bottom: 10px;
+    }
+
+    .mobile-menu ul li a {
+        color: #fff;
+    }
+
+    .mobile-menu.show ul {
+        display: block;
+    }
+}
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu.show {
+    display: block;
+}

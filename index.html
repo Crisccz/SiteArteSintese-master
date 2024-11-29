@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte Síntese - Formação e Capacitação</title>
+
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Arte Síntese</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="./html/cursos.html" class="nav-link">Cursos</a></li>
+                    <li class="nav-item"><a href="./html/sobre.html" class="nav-link">Nossa história</a></li>
+                    <li class="nav-item"><a href="./html/contatos.html" class="nav-link">Contatos</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="./html/login.html">Login</a></button>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="./html/cursos.html" class="nav-link">Cursos</a></li>
+                <li class="nav-item"><a href="./html/sobre.html" class="nav-link">Nossa história</a></li>
+                <li class="nav-item"><a href="./html/contatos.html" class="nav-link">Contatos</a></li>
+            </ul>
+            <div class="login-button">
+                <button><a href="./html/login.html">Entrar</a></button>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- Seção Slider -->
+    <section class="slider">
+        <div class="container text-center">
+            <h1 class="text-uppercase">
+                <span class="text-color">Formação</span>
+                <span class="text-color1">e Capacitação</span>
+            </h1>
+            <h2 class="text-color2">
+                Em Fotografia, Design Gráfico e Cinema Audiovisual
+            </h2>
+            <a href="./html/cadastro.html" target="_blank" class="btn btn-main">Cadastre-se</a>
+        </div>
+    </section>
+
+    <!-- Frase Inspiradora -->
+    <section class="frase">
+        <p>"Transformando sonhos em realidade através da educação de qualidade."</p>
+    </section>
+
+    <!-- Seção de Cursos -->
+    <section class="curso">
+        <h1>Nossos Cursos</h1>
+        <p>Explore os cursos profissionalizantes da Arte Síntese, criados para transformar sua paixão em profissão.</p>
+
+        <div class="curso-container">
+            <div class="curso-card">
+                <h2>Design Gráfico</h2>
+                <p>Aprenda os fundamentos do design gráfico, princípios de cores, tipografia e composição para criar
+                    projetos impactantes.</p>
+                <p><strong>Carga horária:</strong> 300 horas</p>
+                <a href="./html/cadastro.html" class="matricula">Matricule-se</a>
+            </div>
+
+            <div class="curso-card">
+                <h2>Fotografia</h2>
+                <p>Desenvolva suas habilidades na fotografia, incluindo técnicas de iluminação, composição e edição de
+                    imagens.</p>
+                <p><strong>Carga horária:</strong> 300 horas</p>
+                <a href="./html/cadastro.html" class="matricula">Matricule-se</a>
+            </div>
+
+            <div class="curso-card">
+                <h2>Cinema e Audiovisual</h2>
+                <p>Descubra o mundo do audiovisual com aulas sobre roteirização, captação de imagens e edição de vídeos.
+                </p>
+                <p><strong>Carga horária:</strong> 300 horas</p>
+                <a href="./html/cadastro.html" class="matricula">Matricule-se</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avaliações -->
+    <section class="avaliacoes">
+        <h2>Avaliações dos Nossos Alunos</h2>
+        <div class="avaliacoes-container">
+            <div class="box">
+                <h3>Maria Silva</h3>
+                <p>"O curso foi excelente! Aprendi muito e os professores foram incríveis. Recomendo a todos!"</p>
+            </div>
+            <div class="box">
+                <h3>João Pereira</h3>
+                <p>"Gostei bastante do conteúdo abordado. Foi muito útil para a minha carreira profissional."</p>
+            </div>
+            <div class="box">
+                <h3>Ana Costa</h3>
+                <p>"O curso superou minhas expectativas. As aulas foram essenciais para o meu aprendizado."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h1>Arte Síntese</h1>
+                <p>"Uma frase da empresa"</p>
+                <div class="social-media">
+                    <a href="#" class="footer-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="footer-link"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="footer-link"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Cursos</h3>
+                <ul>
+                    <li><a href="#">Fotografia</a></li>
+                    <li><a href="#">Design Gráfico</a></li>
+                    <li><a href="#">Cinema e Audiovisual</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Navegue no site</h3>
+                <ul>
+                    <li><a href="./html/cursos.html">Cursos</a></li>
+                    <li><a href="./html/sobre.html">Sobre</a></li>
+                    <li><a href="./html/contatos.html">Contatos</a></li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h3>Newsletter</h3>
+                <p>Coloque seu e-mail e fique por dentro das novidades:</p>
+                <div class="input-group">
+                    <input type="email" placeholder="Seu e-mail">
+                    <button><i class="fa-regular fa-envelope"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Arte Síntese - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="js/header.js"></script>
+</body>
+
+</html>
